@@ -1,0 +1,1 @@
+This is the GoogleCopy mini project from The Odin Project
