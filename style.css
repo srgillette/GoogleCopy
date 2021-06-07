@@ -3,16 +3,21 @@ nav button{
     background: white;
 }
 
+nav{
+    height: 5em;
+    width: 100%;
+}
+
 #left-nav{
     position: absolute;
     top: 20px;
-    left: 5px;
     background-color: white;
+    left: .5em;
 }
 
 #right-nav{
     position: absolute;
-    right: 0px;
+    right: 20px;
     top: 20px;
 }
 
@@ -21,6 +26,17 @@ nav button{
     margin-left: auto;
     margin-right: auto;
     margin-top: 15em;
+}
+
+#left-footer{
+    position: absolute;
+    margin: 1em 3em 1em 3em;
+}
+
+#right-footer{
+    position: absolute;
+    right: 20px;
+    top: 1em;
 }
 
 .search{
@@ -34,5 +50,24 @@ nav button{
 
 center button{
     margin: 1em;
-    
+}
+
+footer{
+    width: 100%;
+    height: 3em;
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    opacity: 20%;
+}
+
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
 }
