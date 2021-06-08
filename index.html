@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+    <script>
+        function googSearch(){
+            var q = document.getElementById("search-field").value;
+            window.open('http://google.com/search?q='+q)
+        }
+    </script>
     <head>
         <link rel="stylesheet" href="style.css">
         <nav>
@@ -17,7 +23,7 @@
         <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"</img>
         <input type="search" id="search-field" class="search">
         <center>       
-            <button id="goog-search" class="search-button">Google Search</button>
+            <button id="goog-search" class="search-button" onclick="googSearch()">Google Search</button>
             <button id="feeling-lucky" class="lucky-button">Feeling Lucky</button>
         </center>
     </body>
